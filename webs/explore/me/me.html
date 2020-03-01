@@ -1,4 +1,4 @@
-<el-collapse v-modal="1">
+<el-collapse v-model="activeNames" @change="handleChange">
     <el-collapse-item title="● 基本信息" name="1">
         <div style="padding: 0 20px;">
             <div style="float: left; width: 40%;">
@@ -43,7 +43,7 @@
             <div style="clear: both;">
                 <div style="line-height: 50px;">
                     <label>住址：</label>
-                    <span>南京市江宁区龙眠大道碧华苑</span>
+                    <span>南京市江宁区东山街道万安南路9号融侨悦城</span>
                 </div>
             </div>
         </div>

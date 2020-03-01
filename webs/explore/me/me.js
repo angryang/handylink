@@ -7,6 +7,7 @@ define([
       template: Template,
       data: function() {
         return {
+          activeNames: ["1"],
           edus: {
             titles: [{
               title: "时间",
@@ -37,6 +38,11 @@ define([
               courses: "大学数学，线性代数，计算机组成原理，计算机网络，C语言程序设计"
             }]
           }
+        }
+      },
+      methods: {
+        handleChange: function(val) {
+          console.log(val)
         }
       }
     }
