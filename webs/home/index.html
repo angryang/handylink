@@ -89,7 +89,7 @@
     </el-main>
     <el-footer>
         <div class="handylink-footer">
-            <router-link to="/user/user">用户管理</router-link>
+            <router-link to="/user/user" v-if="username=='admin'">用户管理</router-link>
             <router-link to="/explore/todo">探索功能</router-link>
             <router-link to="/explore/">关于我</router-link>
             <router-link to="/about">关于网站</router-link>

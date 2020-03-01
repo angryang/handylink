@@ -1,0 +1,17 @@
+<el-form  style="width: 80%, padding: 0 10%;">
+    <el-form-item>
+        <el-transfer
+            v-model="selectedUsers"
+            :props="{
+              key: 'key',
+              label: 'label'
+            }"
+            :data="users">
+        </el-transfer>
+    </el-form-item>
+
+    <el-form-item>
+        <el-button type="primary" @click="change">确 定</el-button>
+        <el-button @click="cancel">取 消</el-button>
+    </el-form-item>
+</el-form>

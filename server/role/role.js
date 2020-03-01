@@ -1,19 +1,6 @@
 roleManager = require("./role_manage_json")
 util = require("../util")
 
-
-
-function convertToUser(data) {
-    return {
-        "id": userManager.generateId(), 
-        "username": data.username,
-        "password": data.password,
-        "sex": data.sex,
-        "birthday": data.birthday || "",
-        "cardId": data.cardId || ""
-    }
-}
-
 // 添加角色 
 function addRole(req, res) {
     res.json("OK")

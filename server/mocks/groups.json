@@ -1,0 +1,33 @@
+[
+    {
+        "id": "0",
+        "groupName": "admin",
+        "groupDisplayName": {
+            "zh-cn": "管理员",
+            "en-us": "administrator"
+        },
+        "roles": [
+            "0"
+        ],
+        "users": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
+    },
+    {
+        "id": "1",
+        "groupName": "user",
+        "groupDisplayName": {
+            "zh-cn": "普通用户",
+            "en-us": "administrator"
+        },
+        "roles": [
+            "0"
+        ],
+        "users": [
+            "3"
+        ]
+    }
+]

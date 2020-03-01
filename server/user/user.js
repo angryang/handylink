@@ -48,7 +48,6 @@ function registerUser(req, res) {
     user = convertToUser(req.body)
 
     error = validateUser(user)
-    console.log(error)
     if (error != undefined) {
         res.json(error);
     }

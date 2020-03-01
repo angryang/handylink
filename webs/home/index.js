@@ -10,6 +10,7 @@ define([
       return {
         searchText: "",
         username: "",
+        userRole: "0",
         links: {
           news: [],
           tech: [],
@@ -59,6 +60,7 @@ define([
       initData() {
         this.getAll();
         this.username = window.sessionStorage.getItem("username");
+        this.userRole = "0"
       }
     },
     mounted(){

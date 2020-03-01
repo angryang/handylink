@@ -1,13 +1,12 @@
 <el-container style="width: 100%; padding: 0 10%">
     <el-table :data="tableDatas">
         <el-table-column prop="id" label="索引" width="180"> </el-table-column>
-        <el-table-column prop="username" label="用户名" width="180"></el-table-column>
-        <el-table-column prop="sex" label="性别"> </el-table-column>
-        <el-table-column prop="cellNumber" label="电话号码"> </el-table-column>
+        <el-table-column prop="groupDisplayName.zh-cn" label="用户组" width="180"></el-table-column>
         <el-table-column label="操作">
             <template slot-scope="scope">
-                <el-button @click="editUser(scope.row)" type="text" size="small">编辑</el-button>
-                <el-button @click="deleteUser(scope.row)" type="text" size="small" v-if="!cannotDeleteUsers.includes(scope.row.username)">删除</el-button>
+                <el-button @click="editUser(scope.row)" type="text" size="small">用户管理</el-button>
+                <el-button @click="editRole(scope.row)" type="text" size="small">权限管理</el-button>
+                <el-button @click="deleteGroup(scope.row)" type="text" size="small" v-if="!cannotDeleteGroups.includes(scope.row.groupName)">删除</el-button>
             </template>
         </el-table-column>
     </el-table>

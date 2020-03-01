@@ -19,7 +19,7 @@ app.use(router);
 // 处理静态文件
 app.use(express.static(__dirname + '/webs'));
 // 处理根目录的请求
-app.use(function(req,res){
+app.use("/", function(req,res){
     res.sendFile(__dirname + '/webs/index.html') ;
 });
 

@@ -5,7 +5,8 @@
         "password": "123456",
         "sex": "famale",
         "birthday": "",
-        "cardId": ""
+        "cardId": "",
+        "groups": ["0", "1", "2"]
     },
     {
         "id": "1",
@@ -13,7 +14,18 @@
         "password": "Test@12345",
         "sex": "male",
         "birthday": "19890420",
-        "cardId": "xxxxxxxxxxx"
+        "cardId": "xxxxxxxxxxx",
+        "state": "0",
+        "country": "0",
+        "nation": "0",
+        "address": {
+            "level1": "江苏省",
+            "level2": "南京市",
+            "level3": "江宁区",
+            "level4": "东山街道",
+            "level5": "万安南路9号融侨悦城"
+        },
+        "groups": ["0"]
     },
     {
         "id": "2",
@@ -21,7 +33,18 @@
         "password": "123456",
         "sex": "famale",
         "birthday": "",
-        "cardId": ""
+        "cardId": "",
+        "state": "0",
+        "country": "0",
+        "nation": "0",
+        "address": {
+            "level1": "江苏省",
+            "level2": "南京市",
+            "level3": "江宁区",
+            "level4": "东山街道",
+            "level5": "万安南路9号融侨悦城"
+        },
+        "groups": ["0"]
     },
     {
         "id": "3",
@@ -29,6 +52,7 @@
         "password": "123456",
         "sex": "male",
         "birthday": "",
-        "cardId": ""
+        "cardId": "",
+        "groups": []
     }
 ]

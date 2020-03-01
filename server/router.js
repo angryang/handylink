@@ -15,6 +15,15 @@ router.get('/api/users/:id', user.getUserById)
 router.post('/api/user', user.registerUser)
 router.delete('/api/users/:id', user.removeUser)
 
+// 用户组管理
+const group = require('./group/group');
+router.get('/api/groups', group.getGroups)
+router.get('/api/groups/:id', group.getGroup)
+router.get('/api/groups/:id/users', group.getGroupUsers)
+router.put('/api/groups/:id', group.updateGroup)
+router.post('/api/group', group.addGroup)
+router.delete('/api/groups/:id', group.deleteGroup)
+
 // 角色管理
 const role = require('./role/role');
 router.get('/api/roles', role.getRoles)

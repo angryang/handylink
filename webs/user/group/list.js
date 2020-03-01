@@ -8,12 +8,12 @@ define([
         data: function(){
             return {
                 tableDatas: [],
-                cannotDeleteUsers: ["admin", "yangchun", "dingfangmin"]
+                cannotDeleteGroups: ["admin"]
             };
         },
         methods: {
             initData: function() {
-                user.getUsers().then(
+                user.getGroups().then(
                     (response) => {
                         this.tableDatas = response.data;
                     },
@@ -21,20 +21,26 @@ define([
                         console.log(error)
                     })
             },
-            deleteUser: function (row) {
-                user.deleteUser(row.id).then(
+            deleteGroup: function (row) {
+                user.deleteGroup(row.id).then(
                     (response) => {
-                        console.log("用户删除成功！")
+                        console.log("用户组删除成功！")
                         console.log(response)
 
                         this.tableDatas = this.tableDatas.filter(
                                 (item) => {return item.id != row.id});
                     },
                     (error) => {
-                        console.log("用户删除失败！")
+                        console.log("用户组删除失败！")
                         console.log(error)
                     }
                     )
+            },
+            editUser: function(row) {
+                this.$router.push({
+                        name: "group_edit_user",
+                        params:{groupId: row.id}
+                    })
             }
         },
         mounted(){

@@ -1,5 +1,5 @@
 // ES5
-define(["./list"], function(List) {
+define(["./list", "./changeUser"], function(List, ChangeUser) {
     return {
             path: "group",
             name: "group_manage",
@@ -13,6 +13,13 @@ define(["./list"], function(List) {
                 path: "list",
                 name: "group_list",
                 component: List
+            },{
+                path: "editUser",
+                name: "group_edit_user",
+                component: ChangeUser,
+                props: {
+                    groupId: true
+                }
             }]
         };
 });

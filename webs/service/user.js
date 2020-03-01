@@ -29,6 +29,25 @@
                 method: 'DELETE',
                 url: '/api/users/'+id
             })
+        },
+        getGroups: function() {
+            return instance({
+                method: 'get',
+                url: '/api/groups'
+            })
+        },
+        getGroupUsers: function(id) {
+            return instance({
+                method: 'get',
+                url: '/api/groups/'+id+'/users'
+            })
+        },
+        updateGroup: function(group) {
+             return instance({
+                method: 'put',
+                url: '/api/groups/'+group.id,
+                data: group
+            })
         }
     }
 });
