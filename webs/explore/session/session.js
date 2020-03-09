@@ -17,13 +17,11 @@ define([
         methods: {
             login() {
                 api.login(this.userinfo).then(
-                    response => {
-                        if (response.data.code == 200) {
-                            this.$router.push("/home");
-                            window.sessionStorage.setItem("username", response.data.data.username);
-                        }
+                    (response) => {
+                        this.$router.push("/home");
+                        window.sessionStorage.setItem("username", response.data.username);
                     },
-                    error => {
+                    (error) => {
                         console.log(error);
                     }
                 )

@@ -1,4 +1,32 @@
-{
-    "0": "汉族",
-    "1": "回族"
-}
+[
+    {
+        "id": "0",
+        "zh-cn": "汉族",
+        "en-us": "han zu"
+    },
+    {
+        "id": "1",
+        "zh-cn": "回族",
+        "en-us": "hui zu"
+    },
+    {
+        "zh-cn": "满族",
+        "en-us": "manzu",
+        "id": "3"
+    },
+    {
+        "zh-cn": "蒙古族",
+        "en-us": "mengguzu",
+        "id": "5"
+    },
+    {
+        "zh-cn": "藏族",
+        "en-us": "zangzu",
+        "id": "6"
+    },
+    {
+        "zh-cn": "维吾尔族",
+        "en-us": "weiwuerzu",
+        "id": "7"
+    }
+]

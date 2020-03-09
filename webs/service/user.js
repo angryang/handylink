@@ -30,6 +30,24 @@
                 url: '/api/users/'+id
             })
         },
+        getRoles: function() {
+            return instance({
+                method: 'get',
+                url: '/api/roles'
+            })
+        },
+        getRole: function(id) {
+            return instance({
+                method: 'GET',
+                url: '/api/roles/'+id
+            })
+        },
+        deleteRole: function(id) {
+            return instance({
+                method: 'DELETE',
+                url: '/api/roles/'+id
+            })
+        },
         getGroups: function() {
             return instance({
                 method: 'get',

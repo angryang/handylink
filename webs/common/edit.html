@@ -1,0 +1,30 @@
+<div>
+    <el-form label-width="100px" class="handylink-register-form" :model="commonInfo" >
+        <el-form-item label="类    型：" prop="type">
+            <el-dropdown>
+              <el-button type="primary">
+                请选择类型<i class="el-icon-arrow-down el-icon--right"></i>
+              </el-button>
+              <el-dropdown-menu slot="dropdown">
+                <el-dropdown-item>民族</el-dropdown-item>
+                <el-dropdown-item>省份</el-dropdown-item>
+                <el-dropdown-item>国家</el-dropdown-item>
+              </el-dropdown-menu>
+            </el-dropdown>
+        </el-form-item>
+        <el-form-item label="中文显示：" prop="zhDisplay">
+            <el-input v-model="commonInfo.zhDisplay" 
+                    placeholder="请输入中文显示"
+                    type="password" show-password></el-input>
+        </el-form-item>
+        <el-form-item label="英文显示：" prop="enDisplay">
+            <el-input v-model="commonInfo.enDisplay" 
+                    placeholder="请输入英文显示"
+                    type="password" show-password></el-input>
+        </el-form-item>
+        <el-form-item>
+            <el-button type="primary" @click="add">添 加</el-button>
+            <el-button @click="cancel">取 消</el-button>
+        </el-form-item>
+    </el-form>
+</div>

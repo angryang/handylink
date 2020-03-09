@@ -5,22 +5,23 @@
     instance.defaults.headers.common
     instance.defaults.timeout = 2000; //默认超时时间，2秒。
     return {
-        getRoles: function() {
+        getNations: function() {
             return instance({
                 method: 'get',
-                url: '/api/roles'
+                url: '/api/nations'
             })
         },
-        getRole: function(id) {
+        add: function(info) {
             return instance({
-                method: 'GET',
-                url: '/api/roles/'+id
+                method: 'post',
+                url: '/api/common/add',
+                data: info
             })
         },
-        deleteRole: function(id) {
+        deleteNation: function(id) {
             return instance({
-                method: 'DELETE',
-                url: '/api/roles/'+id
+                method: 'delete',
+                url: '/api/nations/' + id
             })
         }
     }

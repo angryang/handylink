@@ -15,7 +15,7 @@
         logout: function(userinfo) {
             return instance({
                 method:'get',
-                url:'/api/logout'
+                url:'/api/  '
               })
         },
         getLinks: function(type){

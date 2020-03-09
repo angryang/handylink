@@ -1,5 +1,5 @@
 // ES5
-define(["user/menu",
+define(["./menu",
     "./user/router",
     "./user/register",
     "./role/router",

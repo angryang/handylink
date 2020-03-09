@@ -14,7 +14,7 @@ define(["./list", "./changeUser"], function(List, ChangeUser) {
                 name: "group_list",
                 component: List
             },{
-                path: "editUser",
+                path: "edit",
                 name: "group_edit_user",
                 component: ChangeUser,
                 props: {

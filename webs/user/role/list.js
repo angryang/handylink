@@ -1,7 +1,7 @@
 define([
     'text!./list.html',
-    'service/role'
-  ], function(Template, role) {
+    'service/user'
+  ], function(Template, user) {
     return {
         name: "register",
         template: Template,
@@ -13,7 +13,7 @@ define([
         },
         methods: {
             initData: function() {
-                role.getRoles().then(
+                user.getRoles().then(
                     (response) => {
                         this.tableDatas = response.data;
                         console.log(this.tableDatas)
@@ -35,7 +35,7 @@ define([
                 return aa
             },
             deleteRole: function (row) {
-                role.deleteRole(row.id).then(
+                user.deleteRole(row.id).then(
                     (response) => {
                         console.log("角色删除成功！")
                         console.log(response)

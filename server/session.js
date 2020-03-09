@@ -3,7 +3,7 @@ const FileStore = require('session-file-store')(session);
 
 // bug: node.js v8.11.3 版本不支持import语法
 // import checkUser from './auth';
-const auth = require('./user/user');
+const auth = require('./user/user/user');
 const session_name = "ssid";
 
 const session_config = {
@@ -30,13 +30,19 @@ class UnionSession{
         if (userInfo) {
             req.session.regenerate(function(err){
                 if (err) {
-                    res.json({"code": 500, message:"登录失败，请重试！"});
+                    res.status(500).json({
+                        "errorCode": 500, 
+                        "errorMessage":"登录失败，请重试！"
+                    });
                 }
                 req.session.username = userInfo.name;
-                res.json({"code": 200, message:"登录成功!", data:userInfo});
+                res.status(200).json(userInfo);
             })
         } else {
-            res.json({"code": 500, message:"用户名或密码错误！"});
+            res.status(500).json({
+                        "errorCode": 500, 
+                        "errorMessage":"用户名或密码错误！"
+                    });
         }
     };
 

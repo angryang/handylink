@@ -1,5 +1,6 @@
 userManager = require("./user_manage_json")
-util = require("../util")
+let pwd = process.cwd()
+let util = require(pwd + "/server/util")
 
 // 检查用户是否存在
 function checkUser(userName, userPass) {

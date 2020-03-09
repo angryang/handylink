@@ -6,7 +6,11 @@
         "sex": "famale",
         "birthday": "",
         "cardId": "",
-        "groups": ["0", "1", "2"]
+        "groups": [
+            "0",
+            "1",
+            "2"
+        ]
     },
     {
         "id": "1",
@@ -25,7 +29,9 @@
             "level4": "东山街道",
             "level5": "万安南路9号融侨悦城"
         },
-        "groups": ["0"]
+        "groups": [
+            "0"
+        ]
     },
     {
         "id": "2",
@@ -44,15 +50,16 @@
             "level4": "东山街道",
             "level5": "万安南路9号融侨悦城"
         },
-        "groups": ["0"]
+        "groups": [
+            "0"
+        ]
     },
     {
-        "id": "3",
-        "username": "aaa",
-        "password": "123456",
+        "id": "4",
+        "username": "dingding",
+        "password": "woaidd",
         "sex": "male",
         "birthday": "",
-        "cardId": "",
-        "groups": []
+        "cardId": ""
     }
 ]

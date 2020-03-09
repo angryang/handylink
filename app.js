@@ -1,5 +1,5 @@
-const express  = require('express');
-const app  = express();
+const express = require('express');
+const app = express();
 
 // 绑定session中间件
 const unisession = require('./server/session');

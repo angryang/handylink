@@ -1,6 +1,7 @@
 groupManager = require("./group_json")
 userManager = require("../user/user_manage_json")
-util = require("../util")
+let pwd = process.cwd()
+util = require(pwd + "/server/util")
 
 // 添加用户组 
 function addGroup(req, res) {

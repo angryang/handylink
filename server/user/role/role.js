@@ -1,5 +1,6 @@
 roleManager = require("./role_manage_json")
-util = require("../util")
+let pwd = process.cwd()
+util = require(pwd + "/server/util")
 
 // 添加角色 
 function addRole(req, res) {

@@ -1,7 +1,7 @@
 // ES5
 define(["vueRouter", "home/router", "explore/router", "about/router", 
-    "user/router"],
-    function(vueRouter, home, explore, about, user, role){
+    "user/router", "common/router"],
+    function(vueRouter, home, explore, about, user, common){
     return new vueRouter({
             routes: [{
                     path: '/',
@@ -11,7 +11,8 @@ define(["vueRouter", "home/router", "explore/router", "about/router",
                 home,
                 explore,
                 about,
-                ...user
+                ...user,
+                ...common
             ]
         })
     }
