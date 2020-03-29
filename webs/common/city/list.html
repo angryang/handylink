@@ -1,6 +1,6 @@
 <el-main style="width: 100%; padding: 0 10%">
     <el-row :gutter="20">
-        <el-button type="primary" @click="addNation">添加民族</el-button>
+        <el-button type="primary" @click="addCity">添加城市</el-button>
     </el-row>
     <el-row :gutter="20" style="padding-top: 20px;">
         <el-table :data="tableDatas">
@@ -9,17 +9,10 @@
             <el-table-column prop="en-us" label="英文" width="180"></el-table-column>
             <el-table-column label="操作">
                 <template slot-scope="scope">
-                    <el-button @click="editNation(scope.row)" type="text" size="small">编辑</el-button>
-                    <el-button @click="deleteNation(scope.row)" type="text" size="small">删除</el-button>
+                    <el-button @click="editCity(scope.row)" type="text" size="small">编辑</el-button>
+                    <el-button @click="deleteCity(scope.row)" type="text" size="small">删除</el-button>
                 </template>
             </el-table-column>
         </el-table>
-        <el-pagination background layout="total, sizes, prev, pager, next"
-            @size-change="handleSizeChange"
-            @current-change="handleCurrentChange"
-            :current-page.sync="currentPage"
-            :page-size="pageSize"
-            :total="totalDatas.length">
-        </el-pagination>
     </el-row>
 </el-main>

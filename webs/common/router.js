@@ -1,9 +1,10 @@
 // ES5
 define(["./menu",
     "./add",
-    "./edit",
-    "./nation/router"], 
-    function(Menu, Add, Edit, NationRouter) {
+    "./city/router",
+    "./nation/router",
+    "./province/router"], 
+    function(Menu, Add, CityRouter, NationRouter, ProvinceRouter) {
     return [{
         path: "/common",
         name: "common",
@@ -21,11 +22,14 @@ define(["./menu",
         },{
             path: "edit",
             name: "common_edit",
-            component: Edit,
+            component: Add,
             props: {
-                type: true
+                type: true,
+                id: true
             }
         },
-        NationRouter]
+        CityRouter,
+        NationRouter,
+        ProvinceRouter]
     }];
 });

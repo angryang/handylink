@@ -1,0 +1,59 @@
+        "id": "104931",
+        "uniqid": "HbejKvKL1vvP",
+        "schoolname": "The Chinese University of Hong Kong",
+        "professional": "\u4f20\u64ad\u5b66",
+        "countries": "\u9999\u6e2f",
+        "sid": "308",
+        "pid": "0",
+        "nid": "951",
+        "offer_id": "39736",
+        "uid": "4024941",
+        "degree": "1",
+        "degree_other": "",
+        "apply_results": "1",
+        "apply_lang": "2",
+        "year": "2020",
+        "onlineip": "117.23.82.175",
+        "timestamp": "1584102882",
+        "updatetime": "1584103009",
+        "semester": "1",
+        "notice_time": "1578499200",
+        "vieworder": "0",
+        "state": "1",
+        "is_mobile": "0",
+        "url": "http:\/\/www.gter.net\/offer_39736.html",
+        "username": "\u4f9d\u683c\u74e6",
+        "toefl": {
+            "p": "",
+            "l": "",
+            "s": "",
+            "w": "",
+            "z": "110"
+        },
+        "gre": {
+            "v": "",
+            "q": "",
+            "aw": "",
+            "z": ""
+        },
+        "ielts": {
+            "r": "",
+            "l": "",
+            "s": "",
+            "w": "",
+            "z": ""
+        },
+        "sub": {
+            "zy": "0",
+            "z": ""
+        },
+        "gmat": {
+            "q": "",
+            "v": "",
+            "z": ""
+        },
+        "undergraduate_subject": "\u82f1\u8bed",
+        "undergraduate_sid": "",
+        "undergraduate_gpa": "",
+        "graduate_subject": "",
+        "graduate_gpa": ""

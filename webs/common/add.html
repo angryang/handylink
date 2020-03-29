@@ -1,7 +1,7 @@
 <div>
     <el-form label-width="100px" class="handylink-register-form" :model="commonInfo" >
-        <el-form-item label="类    型：" prop="type">
-            <el-select v-model="commonInfo.type" placeholder="请选择类型">
+        <el-form-item label="类    型：">
+            <el-select v-model="type" placeholder="请选择类型" :disabled="typeDisabled">
                 <el-option
                   v-for="item in options"
                   :key="item.value"
@@ -10,16 +10,17 @@
                 </el-option>
             </el-select>
         </el-form-item>
-        <el-form-item label="中文显示：" prop="zhDisplay">
+        <el-form-item label="中文显示：">
             <el-input v-model="commonInfo.zhDisplay" 
                     placeholder="请输入中文显示"></el-input>
         </el-form-item>
-        <el-form-item label="英文显示：" prop="enDisplay">
+        <el-form-item label="英文显示：">
             <el-input v-model="commonInfo.enDisplay" 
                     placeholder="请输入英文显示"></el-input>
         </el-form-item>
         <el-form-item>
-            <el-button type="primary" @click="add">添 加</el-button>
+            <el-button type="primary" @click="edit" v-if="isUpdate()">更 新</el-button>
+            <el-button type="primary" @click="add" v-else>添 加</el-button>
             <el-button @click="cancel">取 消</el-button>
         </el-form-item>
     </el-form>

@@ -2,10 +2,11 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "handylink.js",
   "scripts": {
-	"dev": "node app.js",
-	"start": "npm run dev",
+    "wx": "node wx.js",
+    "dev": "node handylink.js",
+    "start": "npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ylwwin",

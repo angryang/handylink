@@ -1,0 +1,282 @@
+[
+    {
+        "id": "1",
+        "zh-cn": "汉族",
+        "en-us": "hanzu"
+    },
+    {
+        "id": "2",
+        "zh-cn": "回族",
+        "en-us": "huizu"
+    },
+    {
+        "zh-cn": "满族",
+        "en-us": "manzu",
+        "id": "3"
+    },
+    {
+        "zh-cn": "蒙古族",
+        "en-us": "mengguzu",
+        "id": "4"
+    },
+    {
+        "zh-cn": "藏族",
+        "en-us": "zangzu",
+        "id": "5"
+    },
+    {
+        "zh-cn": "维吾尔族",
+        "en-us": "weiwuerzu",
+        "id": "6"
+    },
+    {
+        "zh-cn": "苗族",
+        "en-us": "miaozu",
+        "id": "7"
+    },
+    {
+        "zh-cn": "彝族",
+        "en-us": "lizu",
+        "id": "8"
+    },
+    {
+        "zh-cn": "壮族",
+        "en-us": "zhuangzu",
+        "id": "9"
+    },
+    {
+        "zh-cn": "布依族",
+        "en-us": "buyizu",
+        "id": "10"
+    },
+    {
+        "zh-cn": "朝鲜族",
+        "en-us": "chaoxianzu",
+        "id": "11"
+    },
+    {
+        "zh-cn": "侗族",
+        "en-us": "dongzu",
+        "id": "12"
+    },
+    {
+        "zh-cn": "瑶族",
+        "en-us": "yaozu",
+        "id": "13"
+    },
+    {
+        "zh-cn": "白族",
+        "en-us": "baizu",
+        "id": "14"
+    },
+    {
+        "zh-cn": "哈尼族",
+        "en-us": "hannizu",
+        "id": "15"
+    },
+    {
+        "zh-cn": "哈萨克族",
+        "en-us": "hasakezu",
+        "id": "16"
+    },
+    {
+        "zh-cn": "傣族",
+        "en-us": "daizu",
+        "id": "17"
+    },
+    {
+        "zh-cn": "黎族",
+        "en-us": "lizu",
+        "id": "18"
+    },
+    {
+        "zh-cn": "傈僳族",
+        "en-us": "susuzu",
+        "id": "19"
+    },
+    {
+        "zh-cn": "佤族",
+        "en-us": "wazu",
+        "id": "20"
+    },
+    {
+        "zh-cn": "拉祜族",
+        "en-us": "lahuzu",
+        "id": "21"
+    },
+    {
+        "zh-cn": "高山族",
+        "en-us": "gaoshanzu",
+        "id": "22"
+    },
+    {
+        "zh-cn": "水族",
+        "en-us": "shuizu",
+        "id": "23"
+    },
+    {
+        "zh-cn": "东乡族",
+        "en-us": "dongxiangzu",
+        "id": "24"
+    },
+    {
+        "zh-cn": "纳西族",
+        "en-us": "naxizu",
+        "id": "25"
+    },
+    {
+        "zh-cn": "景颇族",
+        "en-us": "jingpozu",
+        "id": "26"
+    },
+    {
+        "zh-cn": "柯尔克孜族",
+        "en-us": "keerkezizu",
+        "id": "27"
+    },
+    {
+        "zh-cn": "土族",
+        "en-us": "tuzu",
+        "id": "28"
+    },
+    {
+        "zh-cn": "羌族",
+        "en-us": "qiangzu",
+        "id": "29"
+    },
+    {
+        "zh-cn": "撒拉族",
+        "en-us": "salazu",
+        "id": "30"
+    },
+    {
+        "zh-cn": "锡伯族",
+        "en-us": "xibozu",
+        "id": "31"
+    },
+    {
+        "zh-cn": "塔吉克族",
+        "en-us": "tajikezu",
+        "id": "32"
+    },
+    {
+        "zh-cn": "乌孜别克族",
+        "en-us": "wuzibiekezu",
+        "id": "33"
+    },
+    {
+        "zh-cn": "俄罗斯族",
+        "en-us": "eluosizu",
+        "id": "34"
+    },
+    {
+        "zh-cn": "鄂温克族",
+        "en-us": "ewenkezu",
+        "id": "35"
+    },
+    {
+        "zh-cn": "鄂伦春族",
+        "en-us": "elunchunzu",
+        "id": "36"
+    },
+    {
+        "zh-cn": "保安族",
+        "en-us": "baoanzu",
+        "id": "37"
+    },
+    {
+        "zh-cn": "裕固族",
+        "en-us": "yuguzu",
+        "id": "38"
+    },
+    {
+        "zh-cn": "塔塔尔族",
+        "en-us": "tataerzu",
+        "id": "39"
+    },
+    {
+        "zh-cn": "土家族",
+        "en-us": "tujiazu",
+        "id": "40"
+    },
+    {
+        "zh-cn": "畲族",
+        "en-us": "shezu",
+        "id": "41"
+    },
+    {
+        "zh-cn": "达斡尔族",
+        "en-us": "dawoerzu",
+        "id": "42"
+    },
+    {
+        "zh-cn": "赫哲族",
+        "en-us": "hezhezu",
+        "id": "43"
+    },
+    {
+        "zh-cn": "仫佬族",
+        "en-us": "mulaozu",
+        "id": "44"
+    },
+    {
+        "zh-cn": "布朗族",
+        "en-us": "bulangzu",
+        "id": "45"
+    },
+    {
+        "zh-cn": "仡佬族",
+        "en-us": "gelaozu",
+        "id": "46"
+    },
+    {
+        "zh-cn": "阿昌族",
+        "en-us": "achangzu",
+        "id": "47"
+    },
+    {
+        "zh-cn": "普米族",
+        "en-us": "pumizu",
+        "id": "48"
+    },
+    {
+        "zh-cn": "怒族",
+        "en-us": "nuzu",
+        "id": "49"
+    },
+    {
+        "zh-cn": "崩龙族",
+        "en-us": "benglongzu",
+        "id": "50"
+    },
+    {
+        "zh-cn": "独龙族",
+        "en-us": "dulongzu",
+        "id": "51"
+    },
+    {
+        "zh-cn": "京族",
+        "en-us": "jingzu",
+        "id": "52"
+    },
+    {
+        "zh-cn": "毛南族",
+        "en-us": "maonanzu",
+        "id": "53"
+    },
+    {
+        "zh-cn": "门巴族",
+        "en-us": "menbazu",
+        "id": "54"
+    },
+    {
+        "zh-cn": "珞巴族",
+        "en-us": "luobazu",
+        "id": "55"
+    },
+    {
+        "zh-cn": "基诺族",
+        "en-us": "jinuozu",
+        "id": "56"
+    }
+]

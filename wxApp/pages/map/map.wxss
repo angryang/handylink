@@ -1,0 +1,14 @@
+/* pages/map/map.wxss */
+.map-scale {
+  margin-top: 10rpx;
+}
+
+.btn-scale-in {
+  float: left;
+  margin-left: 5rpx;
+  
+}
+.btn-scale-out {
+  float: left;
+  margin-right: 5rpx;
+}

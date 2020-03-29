@@ -15,9 +15,9 @@ define([
         },
         methods: {
             initData: function() {
-                common.getNations().then(
+                common.getProvinces().then(
                     (response) => {
-                        this.totalDatas = response.data;
+                        this.totalDatas = response.data
                         this.initCurrentPage()
                     },
                     (error) => {
@@ -38,35 +38,35 @@ define([
                 this.currentPage = pageNo
                 this.initCurrentPage()
             },
-            deleteNation: function (row) {
-                common.deleteNation(row.id).then(
+            deleteProvince: function (row) {
+                common.deleteProvince(row.id).then(
                     (response) => {
                         if (response.data == "OK") {
-                            console.log("民族删除成功！")
+                            console.log("省份删除成功！")
 
                             this.tableDatas = this.tableDatas.filter(
                                     (item) => {return item.id != row.id});
                         } else {
-                            console.log("民族删除失败！")
+                            console.log("省份删除失败！")
                             console.log(response.data)
                         }
                     },
                     (error) => {
-                        console.log("民族删除失败！")
+                        console.log("省份删除失败！")
                         console.log(error)
                     }
                 )
             },
-            editNation: function(row) {
+            editProvince: function(row) {
                 this.$router.push({
                         name: "common_edit",
-                        params: {type: "nation", id: row.id}
+                        params: {type: "province", id: row.id}
                     })
             },
-            addNation: function() {
+            addProvince: function() {
                 this.$router.push({
                         name: "common_add",
-                        params: {type: "nation"}
+                        params: {type: "province"}
                     })
             }
         },

@@ -1,0 +1,19 @@
+<!--pages/login/login.wxml-->
+<form bindsubmit="login">
+  <view class="login_title">
+    <label>订货系统</label>
+  </view>
+  <view class="login_username">
+    <input name="username" auto-focus placeholder="请输入账号（手机号）"/>
+  </view>
+  <view class="login_password">
+    <input name="password" placeholder="请输入密码"/>
+  </view>
+  <view class="login_forget">
+    <label>忘记密码？</label>
+  </view>
+  <view class="login_button">
+    <button formType="submit">登录</button>
+    <button formType="reset">立即注册</button>
+  </view>
+</form>

@@ -1,0 +1,59 @@
+        "id": "104933",
+        "uniqid": "uL1fuHfKrXiO",
+        "schoolname": "University of Minnesota, Twin Cities",
+        "professional": "Banking and Finance",
+        "countries": "",
+        "sid": "0",
+        "pid": "346",
+        "nid": "0",
+        "offer_id": "39737",
+        "uid": "4024899",
+        "degree": "1",
+        "degree_other": "",
+        "apply_results": "1",
+        "apply_lang": "1",
+        "year": "2020",
+        "onlineip": "117.23.82.175",
+        "timestamp": "1584103974",
+        "updatetime": "1584103974",
+        "semester": "1",
+        "notice_time": "1580832000",
+        "vieworder": "0",
+        "state": "1",
+        "is_mobile": "0",
+        "url": "http:\/\/www.gter.net\/offer_39737.html",
+        "username": "\u5343\u73b3\u4f9d",
+        "toefl": {
+            "p": "",
+            "l": "",
+            "s": "",
+            "w": "",
+            "z": ""
+        },
+        "gre": {
+            "v": "",
+            "q": "",
+            "aw": "",
+            "z": ""
+        },
+        "ielts": {
+            "r": "",
+            "l": "",
+            "s": "",
+            "w": "",
+            "z": ""
+        },
+        "sub": {
+            "zy": "0",
+            "z": ""
+        },
+        "gmat": {
+            "q": "",
+            "v": "",
+            "z": ""
+        },
+        "undergraduate_subject": "",
+        "undergraduate_sid": "",
+        "undergraduate_gpa": "",
+        "graduate_subject": "",
+        "graduate_gpa": ""
