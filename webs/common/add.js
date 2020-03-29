@@ -52,6 +52,26 @@ define([
                             console.log("查询数据失败")
                         }
                     )
+                } else if (type == "province") {
+                    common.getProvince(id).then(
+                        (resp) => {
+                            data = resp.data
+                            this.dataToView(data)
+                        },
+                        (error) => {
+                            console.log("查询数据失败")
+                        }
+                    )
+                } else if (type == "city") {
+                    common.getCity(id).then(
+                        (resp) => {
+                            data = resp.data
+                            this.dataToView(data)
+                        },
+                        (error) => {
+                            console.log("查询数据失败")
+                        }
+                    )
                 }
             },
             dataToView: function(data) {

@@ -35,6 +35,12 @@
                 url: '/api/cities'
             })
         },
+        deleteCity: function(id) {
+            return instance({
+                method: 'delete',
+                url: '/api/cities/' + id
+            })
+        },
         getProvince: function(id) {
             return instance({
                 method: 'get',
@@ -45,6 +51,12 @@
             return instance({
                 method: 'get',
                 url: '/api/provinces'
+            })
+        },
+        deleteProvince: function(id) {
+            return instance({
+                method: 'delete',
+                url: '/api/provinces/'+id
             })
         },
         add: function(info) {

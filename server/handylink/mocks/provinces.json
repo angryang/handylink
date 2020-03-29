@@ -8,5 +8,160 @@
         "zh-cn": "河南省",
         "en-us": "HeNan Province",
         "id": "2"
+    },
+    {
+        "zh-cn": "浙江省",
+        "en-us": "zhejiangprovince",
+        "id": "3"
+    },
+    {
+        "zh-cn": "福建省",
+        "en-us": "fujian province",
+        "id": "4"
+    },
+    {
+        "zh-cn": "广东省",
+        "en-us": "guangdong province",
+        "id": "5"
+    },
+    {
+        "zh-cn": "山东省",
+        "en-us": "shandong province",
+        "id": "6"
+    },
+    {
+        "zh-cn": "吉林省",
+        "en-us": "jilin province",
+        "id": "7"
+    },
+    {
+        "zh-cn": "黑龙江省",
+        "en-us": "heilongjiang province",
+        "id": "8"
+    },
+    {
+        "zh-cn": "辽宁省",
+        "en-us": "liaoning province",
+        "id": "9"
+    },
+    {
+        "zh-cn": "河北省",
+        "en-us": "hebei province",
+        "id": "10"
+    },
+    {
+        "zh-cn": "山西省",
+        "en-us": "shanxi province",
+        "id": "11"
+    },
+    {
+        "zh-cn": "陕西省",
+        "en-us": "shanxi province",
+        "id": "12"
+    },
+    {
+        "zh-cn": "内蒙古自治区",
+        "en-us": "Inner Mongolia",
+        "id": "13"
+    },
+    {
+        "zh-cn": "湖南省",
+        "en-us": "Hunan Province",
+        "id": "14"
+    },
+    {
+        "zh-cn": "湖北省",
+        "en-us": "Hubei Province",
+        "id": "15"
+    },
+    {
+        "zh-cn": "江西省",
+        "en-us": "Jiangxi Province",
+        "id": "16"
+    },
+    {
+        "zh-cn": "广西壮族自治区",
+        "en-us": "GuangXi Province",
+        "id": "17"
+    },
+    {
+        "zh-cn": "贵州省",
+        "en-us": "Guizhou Province",
+        "id": "18"
+    },
+    {
+        "zh-cn": "云南省",
+        "en-us": "Yunnan Province",
+        "id": "19"
+    },
+    {
+        "zh-cn": "四川省",
+        "en-us": "Sichuan Province",
+        "id": "20"
+    },
+    {
+        "zh-cn": "重庆市",
+        "en-us": "Chongqing City",
+        "id": "21"
+    },
+    {
+        "zh-cn": "上海市",
+        "en-us": "Shanghai City",
+        "id": "22"
+    },
+    {
+        "zh-cn": "北京市",
+        "en-us": "Beijing City",
+        "id": "23"
+    },
+    {
+        "zh-cn": "天津市",
+        "en-us": "Tianjin City",
+        "id": "24"
+    },
+    {
+        "zh-cn": "甘肃省",
+        "en-us": "Gansu City",
+        "id": "25"
+    },
+    {
+        "zh-cn": "宁夏回族自治区",
+        "en-us": "Ningxia Zone",
+        "id": "26"
+    },
+    {
+        "zh-cn": "青海省",
+        "en-us": "Qinghai Province",
+        "id": "27"
+    },
+    {
+        "zh-cn": "西藏自治区",
+        "en-us": "Xizang Zone",
+        "id": "28"
+    },
+    {
+        "zh-cn": "新疆维吾尔自治区",
+        "en-us": "Xinjiang Zone",
+        "id": "29"
+    },
+    {
+        "zh-cn": "海南省",
+        "en-us": "Hainan Province",
+        "id": "30"
+    },
+    {
+        "zh-cn": "台湾省",
+        "en-us": "Taiwan Province",
+        "id": "31"
+    },
+    {
+        "zh-cn": "香港特别行政区",
+        "en-us": "Hong Kong",
+        "id": "32"
+    },
+    {
+        "zh-cn": "澳门特别行政区",
+        "en-us": "Macao",
+        "id": "33"
     }
 ]
