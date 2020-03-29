@@ -1,22 +1,24 @@
 [
     {
         "zh-cn": "江苏省",
-        "en-us": "JiangSu Province",
-        "id": "1"
+        "en-us": "Jiangsu Province",
+        "id": "1",
+        "baike_url": "https://baike.baidu.com/item/%E6%B1%9F%E8%8B%8F/154268?fromtitle=%E6%B1%9F%E8%8B%8F%E7%9C%81&fromid=320938"
     },
     {
         "zh-cn": "河南省",
-        "en-us": "HeNan Province",
-        "id": "2"
+        "en-us": "Henan Province",
+        "id": "2",
+        "baike_url": "https://baike.baidu.com/item/%E6%B2%B3%E5%8D%97/132980?fromtitle=%E6%B2%B3%E5%8D%97%E7%9C%81&fromid=59474"
     },
     {
         "zh-cn": "浙江省",
-        "en-us": "zhejiangprovince",
+        "en-us": "Zhejiang Province",
         "id": "3"
     },
     {
         "zh-cn": "福建省",
-        "en-us": "fujian province",
+        "en-us": "Fujian Province",
         "id": "4"
     },
     {
@@ -26,37 +28,37 @@
     },
     {
         "zh-cn": "山东省",
-        "en-us": "shandong province",
+        "en-us": "Shandong Province",
         "id": "6"
     },
     {
         "zh-cn": "吉林省",
-        "en-us": "jilin province",
+        "en-us": "Jilin Province",
         "id": "7"
     },
     {
         "zh-cn": "黑龙江省",
-        "en-us": "heilongjiang province",
+        "en-us": "Heilongjiang Province",
         "id": "8"
     },
     {
         "zh-cn": "辽宁省",
-        "en-us": "liaoning province",
+        "en-us": "Liaoning Province",
         "id": "9"
     },
     {
         "zh-cn": "河北省",
-        "en-us": "hebei province",
+        "en-us": "Hebei Province",
         "id": "10"
     },
     {
         "zh-cn": "山西省",
-        "en-us": "shanxi province",
+        "en-us": "Shanxi Province",
         "id": "11"
     },
     {
         "zh-cn": "陕西省",
-        "en-us": "shanxi province",
+        "en-us": "Shanxi Province",
         "id": "12"
     },
     {

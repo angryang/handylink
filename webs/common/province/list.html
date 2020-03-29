@@ -5,7 +5,14 @@
     <el-row :gutter="20" style="padding-top: 20px;">
         <el-table :data="tableDatas">
             <el-table-column prop="id" label="索引" width="180"> </el-table-column>
-            <el-table-column prop="zh-cn" label="中文" width="180"></el-table-column>
+            <el-table-column label="中文" width="180">
+                <template slot-scope="scope">
+                    <a v-if="scope.row.baike_url"
+                    :href="scope.row.baike_url" target="_blank">
+                    {{ scope.row["zh-cn"] }}</a>
+                    <span v-else>{{ scope.row["zh-cn"] }}</span>
+                </template>
+            </el-table-column>
             <el-table-column prop="en-us" label="英文" width="180"></el-table-column>
             <el-table-column label="操作">
                 <template slot-scope="scope">

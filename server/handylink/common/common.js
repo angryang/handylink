@@ -30,6 +30,12 @@ function Edit(req, resp) {
     if (data.type == "nation") {
         req.body = data.data
         nation.updateNation(req, resp)
+    } else if (data.type == "province") {
+        req.body = data.data
+        province.updateProvince(req, resp)
+    } else if (data.type == "city") {
+        req.body = data.data
+        city.updateCity(req, resp)
     } else {
         resp.status(400).json(
             {
