@@ -1,12 +1,13 @@
 const express  = require('express')
 const home_link = require('./home/home')
-const unisession = require('./session')
 // 注册路由
 const router = express.Router();
 
-// 登录
-router.post('/api/login', unisession.login)
-router.get('/api/logout', unisession.logout)
+// 登录拦截器
+const auth = require("./session/auth")
+router.all('/api/*', auth.isLogin);
+router.post('/api/login', auth.login)
+router.get('/api/logout', auth.logout)
 
 // 用户管理
 const user = require('./user/user/user')
@@ -53,9 +54,10 @@ router.post('/api/common/add', common.Add)
 router.put('/api/common/edit', common.Edit)
 router.post('/api/offer.json', common.GetOffer)
 
-// 处理/api/mylinks的post请求
+// 处理/api/mylinks的请求
 router.get('/api/mylinks', home_link.getLinks);
 router.get('/api/mylinks/:type', home_link.getLinks);
+
 
 // bug: node.js v8.11.3 版本不支持export语法。
 // export default router;

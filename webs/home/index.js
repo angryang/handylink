@@ -1,7 +1,9 @@
 define([
   'text!home/index.html',
-  'service/api'
-], function(Template, api) {
+  'service/api',
+  'service/cookie',
+  'service/user'
+], function(Template, api, cookie, user) {
   'use strict';
   return {
     name: "home",
@@ -21,10 +23,10 @@ define([
     methods: {
       homeDropdownClick: function(command) {
         if (command == "logout") {
-            api.logout().then(
+            user.logout().then(
               response => {
                   if (response.data.code == 200) {
-                      window.sessionStorage.removeItem("username");
+                      // window.sessionStorage.removeItem("username");
                       this.initData();
                   }
               },
@@ -59,7 +61,7 @@ define([
       },
       initData() {
         this.getAll();
-        this.username = window.sessionStorage.getItem("username");
+        this.username = cookie.getCookie("username");
         this.userRole = "0"
       }
     },

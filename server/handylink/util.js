@@ -1,11 +1,8 @@
-
-
-
-function isNull(param) {
+function isNullOrUndefined(param) {
     return param == undefined || param == "";
 }
 
-
 module.exports = {
-    "isNull": isNull
+    "isNull": isNullOrUndefined,
+    "isNullOrUndefined": isNullOrUndefined
 }

@@ -1,10 +1,38 @@
 
   define(["axios"], function(axios) {
-
+    //axios.defaults.withCredentials = true;
+    axios.interceptors.response.use(
+        (response) => {
+          if (response.status == 302) {
+              window.location = response.location
+              return
+          } 
+          return response
+        }, 
+        (error) => {
+          return Promise.reject(error);
+        });
+        
     let instance = axios.create();
-    instance.defaults.headers.common
     instance.defaults.timeout = 2000; //默认超时时间，2秒。
     return {
+        login: function(userinfo, originalUrl) {
+            let url_str = '/api/login'
+            if (originalUrl) {
+                url_str = url_str + '?originalUrl=' + originalUrl
+            }
+            return instance({
+                method: 'post',
+                url: url_str,
+                data: userinfo
+              })
+        },
+        logout: function(userinfo) {
+            return instance({
+                method:'get',
+                url:'/api/logout'
+              })
+        },
         registerUser: function(userinfo) {
             return instance({
                 method: 'POST',
