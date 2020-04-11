@@ -1,5 +1,0 @@
-<!--pages/video/video.wxml-->
-<view class="container">
-  <!-- <video src="../../videos/shot.mp4"></video> -->
-  <video src="http://127.0.0.1:80/videos/shot.mp4"></video>
-</view>

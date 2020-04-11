@@ -10,13 +10,13 @@ app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x
 
 // 绑定session中间件
 // 绑定cookieParser中间件
-const unisession = require('./server/handylink/session');
+const unisession = require('./server/session');
 const cookieParser = require('cookie-parser');
 app.use(cookieParser());
 app.use(unisession);
 
 // 注册api
-const router = require('./server/handylink/router');
+const router = require('./server/router');
 app.use(router);
 
 // 处理静态文件
@@ -39,5 +39,4 @@ app.use("/", function(req,res) {
     res.sendFile(__dirname + '/webs/index.html')
 });
 
-app.listen(80) ;
-
+app.listen(80);

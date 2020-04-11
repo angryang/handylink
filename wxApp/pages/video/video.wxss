@@ -1,4 +1,0 @@
-/* pages/video/video.wxss */
-.container {
-  align-content: center;
-}

@@ -9,7 +9,7 @@
     "start": "npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "ylwwin",
+  "author": "yangchun",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
